@@ -5,7 +5,7 @@
 
 // We use non-virtual methods for hooks. This reduces PROGMEM consumption,
 // runtime call overhead, and allows the compiler to a better job
-// removing dead card.
+// removing dead code.
 //
 // The downside is that hook methods in derived plugins are hidden,
 // rather than overridden. Because only virtual methods can be overridden,
